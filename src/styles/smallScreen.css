@@ -23,7 +23,8 @@
   }
   .hero-cnt {
     flex-direction: column;
-    gap: 1.5rem;
+    justify-content: flex-start;
+    gap: 0rem;
   }
   .headline-cnt {
     border-right: 1px solid var(--main-color);
