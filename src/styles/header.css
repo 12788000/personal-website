@@ -81,6 +81,22 @@ img {
   display: inline-block;
 }
 
+p,
+span,
+strong {
+  line-height: 2.2rem;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2.2rem;
+  padding: 0;
+}
+
 /******************************************************************/
 /***********Header and Hero Section********************************/
 /******************************************************************/
@@ -190,4 +206,51 @@ img {
 
 .about-me__section {
   height: 100vh;
+}
+
+/******************************************************************/
+/*******************Projects section************************/
+/******************************************************************/
+.project__section {
+  overflow: hidden;
+  height: 100vh;
+  background-color: var(--main-bacground);
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.556), rgb(0, 0, 0)),
+    url("/images/backiee-205442-landscape.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sec-heading {
+  flex-direction: column;
+  gap: 0rem;
+  padding: 1rem;
+}
+
+.sec-top__heading {
+  font-weight: 700;
+  opacity: 0.6;
+  text-transform: uppercase;
+  color: var(--main-color);
+  letter-spacing: var(--sec-spacing);
+}
+
+.sec-headline {
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: var(--main-spacing);
+}
+
+.sec-description {
+  font-size: 1rem;
+  margin-top: 0.9rem;
+  letter-spacing: var(--sec-spacing);
+}
+
+.project-container {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 1.2rem;
 }
