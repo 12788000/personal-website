@@ -265,8 +265,17 @@ h6 {
   height: 20rem;
   width: 20rem;
   overflow: hidden;
+  position: absolute;
   background-color: var(--main-bacground);
   border-radius: var(--main-radius);
+  opacity: 0.6;
+  transition: 0.2s ease-in;
+}
+.card-visible {
+  opacity: 1;
+}
+.card-hidden {
+  opacity: 0;
 }
 
 .project-img {
@@ -337,14 +346,21 @@ h6 {
 .dots {
   padding: 0.5rem;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .dot {
   height: 1rem;
   width: 1rem;
+  margin-left: 0.5rem;
   background-color: transparent;
   border-radius: var(--main-radius);
   border: 1.2px solid var(--main-color);
+  transform: scale(0.7);
+  transition: 0.2s ease-in;
+}
+
+.dot-active {
+  background-color: var(--main-color);
   transform: scale(0.9);
 }
