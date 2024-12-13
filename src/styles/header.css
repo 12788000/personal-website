@@ -238,13 +238,13 @@ h6 {
 
 .sec-headline {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: var(--main-spacing);
 }
 
 .sec-description {
   font-size: 1rem;
-  margin-top: 0.9rem;
+  margin-top: 0.5rem;
   letter-spacing: var(--sec-spacing);
 }
 
